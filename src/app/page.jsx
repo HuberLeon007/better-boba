@@ -17,8 +17,7 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import { FocusCards } from "@/components/ui/focus-cards";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+
 import { SparklesCore } from "@/components/ui/sparkles";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
@@ -57,77 +56,77 @@ export default function Home() {
     {
       title: "Classic Milk Tea",
       link: "https://gomoonbeam.com",
-      thumbnail: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=400&fit=crop",
+      thumbnail: "/images/classic-milk-tea.jpg",
     },
     {
       title: "Taro Bubble Tea",
       link: "https://cursor.so",
-      thumbnail: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=400&fit=crop",
+      thumbnail: "/images/taro-bubble-tea.jpg",
     },
     {
       title: "Matcha Latte",
       link: "https://userogue.com",
-      thumbnail: "https://images.unsplash.com/photo-1571740749163-317c0fecb6f4?w=300&h=400&fit=crop",
+      thumbnail: "/images/matcha-latte.jpg",
     },
     {
       title: "Passion Fruit Tea",
       link: "https://editorially.org",
-      thumbnail: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=400&fit=crop",
+      thumbnail: "/images/passion-fruit-tea.jpg",
     },
     {
       title: "Brown Sugar Milk Tea",
       link: "https://editrix.ai",
-      thumbnail: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=300&h=400&fit=crop",
+      thumbnail: "/images/brown-sugar-milk-tea.jpg",
     },
     {
       title: "Thai Tea",
       link: "https://app.pixelperfect.quest",
-      thumbnail: "https://images.unsplash.com/photo-1556881233-f2f6f2beb780?w=300&h=400&fit=crop",
+      thumbnail: "/images/thai-tea.jpg",
     },
     {
       title: "Wintermelon Tea",
       link: "https://algochurn.com",
-      thumbnail: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=300&h=400&fit=crop",
+      thumbnail: "/images/wintermelon-tea.jpg",
     },
     {
       title: "Honeydew Smoothie",
       link: "https://ui.aceternity.com",
-      thumbnail: "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=300&h=400&fit=crop",
+      thumbnail: "/images/honeydew-smoothie.jpg",
     },
     {
       title: "Mango Passion",
       link: "https://tailwindmasterkit.com",
-      thumbnail: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e5?w=300&h=400&fit=crop",
+      thumbnail: "/images/mango-passion.jpg",
     },
     {
       title: "Lychee Fizz",
       link: "https://smartbridgetech.com",
-      thumbnail: "https://images.unsplash.com/photo-1512024283117-6e8f2c7e8f4e?w=300&h=400&fit=crop",
+      thumbnail: "/images/lychee-fizz.jpg",
     },
     {
       title: "Coconut Milk Tea",
       link: "https://renderwork.studio",
-      thumbnail: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e5?w=300&h=400&fit=crop",
+      thumbnail: "/images/coconut-milk-tea.jpg",
     },
     {
       title: "Strawberry Smoothie",
       link: "https://creme.app",
-      thumbnail: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=400&fit=crop",
+      thumbnail: "/images/strawberry-smoothie.jpg",
     },
     {
       title: "Peach Iced Tea",
       link: "https://goldenbellsacademy.com",
-      thumbnail: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300&h=400&fit=crop",
+      thumbnail: "/images/peach-iced-tea.jpg",
     },
     {
       title: "Lavender Latte",
       link: "https://invoker.lol",
-      thumbnail: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=300&h=400&fit=crop",
+      thumbnail: "/images/lavender-latte.jpg",
     },
     {
       title: "Rose Milk Tea",
       link: "https://efreeinvoice.com",
-      thumbnail: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=400&fit=crop",
+      thumbnail: "/images/rose-milk-tea.jpg",
     },
   ];
 
@@ -135,19 +134,19 @@ export default function Home() {
   const focusCards = [
     {
       title: "Milk Tea Collection",
-      src: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=600&fit=crop",
+      src: "/images/milk-tea-collection.jpg",
     },
     {
       title: "Fruit Tea Paradise",
-      src: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=600&fit=crop",
+      src: "/images/fruit-tea-paradise.jpg",
     },
     {
       title: "Smoothie Selection",
-      src: "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=600&fit=crop",
+      src: "/images/smoothie-selection.jpg",
     },
     {
       title: "Specialty Drinks",
-      src: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=600&fit=crop",
+      src: "/images/specialty-drinks.jpg",
     },
   ];
 
@@ -157,71 +156,31 @@ export default function Home() {
       quote: "The best bubble tea I've ever had! The taro flavor is incredible and the pearls are perfectly chewy. I come here every day now!",
       name: "Sarah Johnson",
       designation: "Food Blogger",
-      src: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      src: "/images/testimonial-sarah.jpg",
     },
     {
       quote: "BobaBliss has become my daily ritual. The matcha latte is pure perfection and the staff is always so friendly!",
       name: "Michael Chen",
       designation: "Coffee Enthusiast",
-      src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      src: "/images/testimonial-michael.jpg",
     },
     {
       quote: "Amazing quality and taste! The brown sugar milk tea is my absolute favorite. Worth every penny!",
       name: "Emily Rodriguez",
       designation: "Student",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      src: "/images/testimonial-emily.jpg",
     },
     {
       quote: "The variety here is incredible. From classic milk tea to exotic fruit flavors, there's something for everyone!",
       name: "David Kim",
       designation: "Local Resident",
-      src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      src: "/images/testimonial-david.jpg",
     },
     {
       quote: "Fresh ingredients, perfect sweetness levels, and amazing ambiance. This is my go-to spot for bubble tea!",
       name: "Lisa Wang",
       designation: "Bubble Tea Enthusiast",
-      src: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-    },
-  ];
-
-  // Sticky Scroll Content (How We Make It)
-  const stickyContent = [
-    {
-      title: "Select Your Base",
-      description: "Choose from our premium tea bases including classic black tea, oolong, jasmine green tea, or fruit-infused options. Each base is carefully selected for its unique flavor profile and quality.",
-      content: (
-        <div className="h-full w-full bg-gradient-to-br from-amber-50 to-orange-100 flex items-center justify-center text-6xl">
-          🫖
-        </div>
-      ),
-    },
-    {
-      title: "Add Your Toppings",
-      description: "Enhance your drink with our signature tapioca pearls, popping boba, jelly, or fresh fruit pieces. All toppings are made fresh daily using traditional methods.",
-      content: (
-        <div className="h-full w-full bg-gradient-to-br from-purple-50 to-pink-100 flex items-center justify-center text-6xl">
-          🧋
-        </div>
-      ),
-    },
-    {
-      title: "Customize Sweetness",
-      description: "Perfect your drink with our customizable sweetness levels - from no sugar to extra sweet. We use premium sweeteners and natural syrups for the best taste.",
-      content: (
-        <div className="h-full w-full bg-gradient-to-br from-yellow-50 to-amber-100 flex items-center justify-center text-6xl">
-          🍯
-        </div>
-      ),
-    },
-    {
-      title: "Enjoy Your Creation",
-      description: "Sip and savor your perfectly crafted bubble tea, made fresh to order with love. Every cup is a masterpiece of flavor and texture.",
-      content: (
-        <div className="h-full w-full bg-gradient-to-br from-green-50 to-emerald-100 flex items-center justify-center text-6xl">
-          😊
-        </div>
-      ),
+      src: "/images/testimonial-lisa.jpg",
     },
   ];
 
@@ -230,55 +189,43 @@ export default function Home() {
     {
       category: "Milk Tea",
       title: "Classic Milk Tea",
-      src: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=400&fit=crop",
+      src: "/images/classic-milk-tea.jpg",
       content: "Our most beloved classic - rich, creamy milk tea with the perfect balance of tea and milk. Made with premium Ceylon black tea and fresh milk.",
     },
     {
       category: "Specialty",
       title: "Taro Bubble Tea",
-      src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=400&fit=crop",
+      src: "/images/taro-bubble-tea.jpg",
       content: "Creamy purple taro root blended with milk and topped with chewy tapioca pearls. A crowd favorite with its unique flavor and beautiful color.",
     },
     {
       category: "Matcha",
       title: "Matcha Latte",
-      src: "https://images.unsplash.com/photo-1571740749163-317c0fecb6f4?w=300&h=400&fit=crop",
+      src: "/images/matcha-latte.jpg",
       content: "Premium Japanese matcha powder whisked with steamed milk. Rich in antioxidants and bursting with earthy, umami flavors.",
     },
     {
       category: "Fruit Tea",
       title: "Passion Fruit Tea",
-      src: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=400&fit=crop",
+      src: "/images/passion-fruit-tea.jpg",
       content: "Refreshing tropical passion fruit tea with real fruit pieces. Light, tangy, and perfect for hot summer days.",
     },
     {
       category: "Signature",
       title: "Brown Sugar Milk Tea",
-      src: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=300&h=400&fit=crop",
+      src: "/images/brown-sugar-milk-tea.jpg",
       content: "Rich brown sugar syrup swirled with creamy milk tea and chewy tapioca pearls. Our signature drink that started it all.",
     },
     {
       category: "Traditional",
       title: "Thai Tea",
-      src: "https://images.unsplash.com/photo-1556881233-f2f6f2beb780?w=300&h=400&fit=crop",
+      src: "/images/thai-tea.jpg",
       content: "Traditional Thai tea with condensed milk, perfectly sweet and creamy. An authentic taste of Thailand in every sip.",
     },
   ];
 
   return (
-    <div className="relative">
-      {/* Background Gradient Animation */}
-      <BackgroundGradientAnimation
-        gradientBackgroundStart="rgb(251, 191, 36)"
-        gradientBackgroundEnd="rgb(249, 115, 22)"
-        firstColor="251, 191, 36"
-        secondColor="249, 115, 22"
-        thirdColor="245, 158, 11"
-        fourthColor="217, 119, 6"
-        fifthColor="194, 65, 12"
-        className="fixed inset-0 -z-10"
-      />
-
+    <div className="relative bg-gradient-to-br from-amber-100 via-orange-100 to-amber-200 min-h-screen">
       {/* Floating Dock Navigation */}
       <FloatingDock items={dockItems} />
 
@@ -443,34 +390,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How We Make It - Sticky Scroll */}
-      <section id="about" className="py-24 glass-effect">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <div className="inline-block relative mb-6">
-              <SparklesCore
-                id="about-sparkles"
-                background="transparent"
-                minSize={0.5}
-                maxSize={1.2}
-                particleDensity={60}
-                className="w-full h-20 absolute -top-4"
-                particleColor="#F59E0B"
-              />
-              <TextGenerateEffect
-                words="✨ How We Craft Perfection ✨"
-                className="text-4xl md:text-6xl font-bold gradient-text mb-6 relative z-10 float-animation"
-              />
-            </div>
-            <p className="text-2xl text-amber-700 max-w-4xl mx-auto font-medium leading-relaxed">
-              🎨 Every cup tells a story of passion, tradition, and innovation. Witness our meticulous process. 🎨
-            </p>
-          </div>
-          <StickyScroll content={stickyContent} />
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
+      {/* Testimonials Section */
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-orange-800/20 to-amber-900/20"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
