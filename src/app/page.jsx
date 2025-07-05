@@ -1,14 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { 
   IconHome, 
   IconMenu2, 
   IconInfoCircle, 
   IconPhone, 
   IconShoppingCart,
-  IconHeart,
-  IconStar
+  IconHeart
 } from "@tabler/icons-react";
 
 // Import Aceternity UI Components
@@ -17,7 +16,6 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import { FocusCards } from "@/components/ui/focus-cards";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-
 import { SparklesCore } from "@/components/ui/sparkles";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
@@ -156,7 +154,7 @@ export default function Home() {
       quote: "The best bubble tea I've ever had! The taro flavor is incredible and the pearls are perfectly chewy. I come here every day now!",
       name: "Sarah Johnson",
       designation: "Food Blogger",
-      src: "/images/testimonial-sarah.jpg",
+      src: "/images/testimonial-sarah.jpg .jpg",
     },
     {
       quote: "BobaBliss has become my daily ritual. The matcha latte is pure perfection and the staff is always so friendly!",
@@ -390,7 +388,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */
+      {/* Testimonials Section */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-orange-800/20 to-amber-900/20"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -457,8 +455,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+          </div>
+        </footer>
+      </div>
+    );
+  }

@@ -246,3 +246,109 @@ html {
     box-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
   }
 }
+
+/* Image Scaling - Prevent Distortion */
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Specific image sizing for different components */
+.hero-parallax img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.focus-cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.testimonial-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.apple-cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Ensure consistent aspect ratios */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container::before {
+  content: '';
+  display: block;
+  padding-bottom: 100%; /* 1:1 aspect ratio */
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Fix for specific Aceternity UI components */
+.hero-parallax-card img {
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+.focus-card img {
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.testimonial img {
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+}
+
+.apple-card img {
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Ensure no image distortion in any context */
+[class*="img"], [class*="image"] {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Specific fixes for different image contexts */
+.relative img, .absolute img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Fix for carousel images */
+.carousel img {
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Fix for card images */
+.card img {
+  object-fit: cover !important;
+  object-position: center !important;
+}
